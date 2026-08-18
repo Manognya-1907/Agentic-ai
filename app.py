@@ -114,7 +114,7 @@ formatted_agent_chain = (
 
 # --- 3. FastAPI App ---
 ##Need To Code
-app=FASTAPI("Indian Weather and Cinema Agent")
+app=FASTAPI(title="Indian Weather and Cinema Agent")
 add_routes(app,formatted_agent_chain,path="/agent",playground_type="default")
 
 if __name__ == "__main__":
